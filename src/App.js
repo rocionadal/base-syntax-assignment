@@ -9,6 +9,10 @@ class App extends Component {
     username: 'rocionadal'
   }
 
+  usernameChangeHandler = (event) => { // if plan to use this method, use arrow function so it will refer to the class to get access to the state
+    this.setState({username: event.target.value})
+  };
+
   render() {
     return (
       <div className="App">
