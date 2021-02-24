@@ -29,9 +29,9 @@ class App extends Component {
           <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
         </ol>
         <UserInput />
-        <UserOutput />
-        <UserOutput />
-        <UserOutput />
+        <UserOutput userName="Rocio" />
+        <UserOutput userName="Rocio" />
+        <UserOutput userName="Rocio" />
       </div>
     );
   }
